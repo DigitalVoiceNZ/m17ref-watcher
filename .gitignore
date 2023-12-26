@@ -2,6 +2,7 @@
 # https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
 #
 # Binaries for programs and plugins
+m17ref-watcher
 *.exe
 *.exe~
 *.dll
@@ -19,3 +20,17 @@
 
 # Go workspace file
 go.work
+
+# environment secrets
+.env
+
+# logs
+logs
+*.log
+
+# Editor debris
+*~
+*.bak
+*.swp
+.vscode/
+
